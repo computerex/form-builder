@@ -16,8 +16,6 @@ define(['./componentmanager'], function(componentmanager) {
         init: function(field){
           var mod = componentmanager.load(field.type);
           var methods = getmethods(mod);
-          console.log("methods for " + field.type + ": ");
-          console.log(methods);
           for(var k = 0; k < methods.length; k++){
             field.data[methods[k]] = mod[methods[k]];
           }
