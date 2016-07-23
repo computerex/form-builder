@@ -1,0 +1,27 @@
+{
+  "name": "form-builder",
+  "version": "1.0.0",
+  "description": "an angular js 1.x based form-builder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/computerex/form-builder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/computerex/form-builder/issues"
+  },
+  "homepage": "https://github.com/computerex/form-builder#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.14.0",
+    "jwt-simple": "^0.5.0",
+    "mongoose": "^4.5.5",
+    "request": "^2.74.0"
+  }
+}
