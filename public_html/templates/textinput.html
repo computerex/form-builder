@@ -1,1 +1,4 @@
-<h1>hi world</h1>
+  <label class="lbl form-control-label" for="{{options.key}}_input">{{options.templateOptions.label}}</label>
+  <input id = "{{options.key}}_input" type="input" class="form-control" ng-model="model[options.templateOptions.label][options.key]" />
+  <button ng-click="options.data.inc(this)">Increment</button>
+  {{options.data.number}}
